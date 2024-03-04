@@ -36,7 +36,7 @@ const team = [
 
 //console.log(team); //Array with the team elements
 
-const infoStrings = document.querySelector('.site-main');
+const infoStrings = document.querySelector('.row');
 
 //- Create a console log with the following info inside a loop to print all the info one by one
 for (let i = 0; i < team.length; i++) {
@@ -44,7 +44,13 @@ for (let i = 0; i < team.length; i++) {
     console.log(member.name, member.role, member.image);
 
     //- Print the same informations obtained before on the DOM as strings
-    const markup = `<h3>${member.name}</h3><p>${member.role}</p><img src="./assets/img/${member.image}" alt="">`
+    const markup = `    
+    <div class="col">
+        <div class="card shadow text-center border-0">
+        <img src="./assets/img/${member.image}" alt=""><h3 class="mt-3">${member.name}</h3><p>${member.role}</p>
+        </div>
+    </div>`;
+
 
     infoStrings.insertAdjacentHTML('beforeend', markup);
 
