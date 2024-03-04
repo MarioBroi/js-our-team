@@ -36,8 +36,16 @@ const team = [
 
 //console.log(team); //Array with the team elements
 
-//- Create a console log with the following info inside a loop to print all the info one by one
-for (let key in team) {
-    console.log(team[key]); // key contained in object team 
+const infoStrings = document.querySelector('.site-main');
 
-}
+//- Create a console log with the following info inside a loop to print all the info one by one
+for (let i = 0; i < team.length; i++) {
+    const member = team[i];
+    console.log(member.name, member.role, member.image);
+
+    //- Print the same informations obtained before on the DOM as strings
+    const markup = `<h3>${member.name}</h3><p>${member.role}</p><div>${member.image}</div>`
+
+    infoStrings.insertAdjacentHTML('beforeend', markup);
+
+};

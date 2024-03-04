@@ -24,7 +24,7 @@
     - role
     - picture (string in this case)
 
-- Print the same informations obtained before on the DOM as strings
+- Print the same informations obtained before on the DOM as strings ✔
 
 ### Tools
 
