@@ -44,7 +44,7 @@ for (let i = 0; i < team.length; i++) {
     console.log(member.name, member.role, member.image);
 
     //- Print the same informations obtained before on the DOM as strings
-    const markup = `<h3>${member.name}</h3><p>${member.role}</p><div>${member.image}</div>`
+    const markup = `<h3>${member.name}</h3><p>${member.role}</p><img src="./assets/img/${member.image}" alt="">`
 
     infoStrings.insertAdjacentHTML('beforeend', markup);
 

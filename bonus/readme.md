@@ -26,6 +26,10 @@
 
 - Print the same informations obtained before on the DOM as strings ✔
 
+- Transform the string in actual image ✔
+
+- Organise the single content in cards 
+
 ### Tools
 
 - const / let
