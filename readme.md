@@ -19,7 +19,7 @@
 
 - Create a variable for the object array whit the different info inside ✔
 
-- Create a console log with the following info:
+- Create a console log with the following info inside a loop to print all the info one by one: ✔
     - name
     - role
     - picture (string in this case)

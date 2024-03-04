@@ -1,5 +1,6 @@
 //console.log('test');
 
+//- Create a variable for the object array whit the different info inside
 const team = [
     {
         name: 'Wayne Barnett',
@@ -33,4 +34,10 @@ const team = [
     },
 ];
 
-console.log(team); //Array with the team elements
+//console.log(team); //Array with the team elements
+
+//- Create a console log with the following info inside a loop to print all the info one by one
+for (let key in team) {
+    console.log(team[key]); // key contained in object team 
+
+}
