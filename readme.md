@@ -13,3 +13,24 @@
 
 - BONUS 2:
     - organizzare i singoli membri in card/schede
+
+
+## Steps
+
+- Create a variable for the object array whit the different info inside
+
+- Create a console log with the following info:
+    - name
+    - role
+    - picture (string in this case)
+
+- Print the same informations obtained before on the DOM as strings
+
+### Tools
+
+- const / let
+- array
+- objects
+- for cycle
+- console.log
+- innerHTML
