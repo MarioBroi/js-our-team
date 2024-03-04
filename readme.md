@@ -17,7 +17,7 @@
 
 ## Steps
 
-- Create a variable for the object array whit the different info inside
+- Create a variable for the object array whit the different info inside ✔
 
 - Create a console log with the following info:
     - name
@@ -33,4 +33,5 @@
 - objects
 - for cycle
 - console.log
+- query selector
 - innerHTML
